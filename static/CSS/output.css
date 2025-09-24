@@ -1,0 +1,35 @@
+.box-output {
+    background: #ffffff;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-output h2 {
+    color: #27ae60;
+    margin-bottom: 20px;
+}
+
+.box-output p {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: regular;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-link p {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #27ae60;
+    margin: 0 450px;
+    border-radius: 5px;
+    padding: 10px;
+}

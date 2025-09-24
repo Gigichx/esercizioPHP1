@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rilevazione Temperatura</title>
+
+    <link rel="stylesheet" href="static/CSS/style.css">
+</head>
+
+<body>
+    <h2>Modulo di rilevazione temperatura</h2>
+    <form action="temperatura.php" method="post">
+        <label>Località: <input type="text" name="localita" required></label><br><br>
+        <label>Data: <input type="date" name="data" required></label><br><br>
+        <label>Ora: <input type="time" name="ora" required></label><br><br>
+
+        <label>Tipo rilevazione:
+            <input type="radio" name="tipo" value="OFC" required> OFC
+            <input type="radio" name="tipo" value="AMB"> AMB
+            <input type="radio" name="tipo" value="DRA"> DRA
+        </label><br><br>
+
+        <label>Umidità:
+            <select name="umidita">
+                <option value="Assoluta">Assoluta</option>
+                <option value="Relativa">Relativa</option>
+            </select>
+        </label><br><br>
+
+        <label>Clima attuale:
+            <select name="clima">
+                <option value="Pioggia">Pioggia</option>
+                <option value="Sereno">Sereno</option>
+                <option value="Ventoso">Ventoso</option>
+                <option value="Umido">Umido</option>
+                <option value="Foschia">Foschia</option>
+            </select>
+        </label><br><br>
+
+        <input type="submit" value="Invia rilevazione">
+    </form>
+</body>
+
+</html>
